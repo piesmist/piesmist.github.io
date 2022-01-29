@@ -5,6 +5,24 @@ PC設定
 
 /* PC共通設定 */
 
+header {
+  height: 110px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+
+}
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 200px;
+    position: relative;
+    z-index: 1;
+}
+
 body {
   background-image: url(./cb.jpg)
 }

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\bbp-original-db-front"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bbp-original-db-front"
+	}
+}
