@@ -4,45 +4,8 @@ PC設定
 ****************/
 
 /* PC共通設定 */
-
-header {
-  height: 110px;
-  width: 100%;
-  padding: 15px 0;
-  background-color: #ffffff;
-  position: relative;
-  z-index: 1;
-
-}
-header .headline{
-    line-height: 100px;
-    float: left;
-    font-size: 30px;
-    margin-left: 200px;
-    position: relative;
-    z-index: 1;
-}
-div#headtitle{
-  padding-left: 70px;
-  padding-right: 40px;
-}
 body {
-  background-image: url(./cb.jpg)
-}
-
-
-
-
-
-.box_l {
-  width: 800px;
-  padding: 30px 30px 30px 30px;
-  margin: 100px auto 100px 15%;
-  box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
-              0 0 4px rgba(0, 0, 0, .8) inset,
-              8px 8px 5px #444;
-  background-image: linear-gradient(180deg, #ebffcc, #d6ff99);
-  border-radius: 9px;
+  line-height: 1.8;
 }
 
 
@@ -50,46 +13,13 @@ body {
 
 
 
-.box_r {
-  width: 800px;
-  background-color: #eee;
-  padding: 30px 30px 30px 30px;
-  margin: 100px 15% 100px auto;
-  box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
-              0 0 4px rgba(0, 0, 0, .8) inset,
-              8px 8px 5px #444;
-  background-image: linear-gradient(180deg, #ebffcc, #d6ff99);
-  border-radius: 9px;
-}
 
 
 
-.instrument{
-  font-family: sans-serif;
-  font-size:13px;
-  font-weight: bold;
-  padding: 8px 0 0 0;
-  margin:0;
-}
 
-.instrument-icon{
-  text-align: right;
-  margin: auto;
-  padding: 0;
-}
-.sns-icon{
-  text-align: center;
-}
-.artist{
-  margin:10px 0 10px 0;
-}
-.maker{
-  padding: 10px 0 10px 0;
-}
-p{
-  margin-bottom: 0;
-}
 
+
+/* ここからスター */
 
 
 :root{
@@ -223,6 +153,36 @@ p{
 
 
 
+
+
+/* ここまで */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 10px 0;
+  background-color: #000000;
+}
+.copyright{
+  color: #ffffff;
+  text-align: center;
+}
 
 /****************
 スマートフォン設定

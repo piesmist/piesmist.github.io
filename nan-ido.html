@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja-JP">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>難易度</title>
+    <meta name="description" content="">
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nan-ido.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="star-container" data-star="1"></div>
+        <div class="star-container" data-star="2"></div>
+        <div class="star-container" data-star="3"></div>
+        <div class="star-container" data-star="4"></div>
+        <div class="star-container" data-star="5"></div>
+        <div class="star-container" data-star="6"></div>
+        <div class="star-container" data-star="7"></div>
+        <div class="star-container" data-star="8"></div>
+        <div class="star-container" data-star="9"></div>
+        <div class="star-container" data-star="10"></div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+        $('.star-container').each((index, elem) => {
+            const starNum = $(elem).data('star');
+            for (let i = 1; i <= starNum; i++) {
+                $(elem).append('<span class="star' + i + '">★</span>');
+            }
+            for (let i = 10; i > starNum; i--) {
+                $(elem).append('<span class="star-non">☆</span>');
+            }
+        });
+    });
+</script>
+
+</html>
