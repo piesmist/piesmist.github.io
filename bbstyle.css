@@ -372,23 +372,32 @@ ul.footer-menu li {
 
 @media(max-width: 767px) {
   .box_l {
+    width: 100%;
     margin: 100px auto 100px auto;
   }
 
   .box_r {
+    width: 100%;
     margin: 100px auto 100px auto;
   }
 
   p {
-    font-size: small;
-  }
-
-  .instrument {
     font-size: smaller;
   }
 
-  span {
+  img {
+    width: 25px;
+    height: auto;
+  }
+
+
+  .instrument {
+    width: 170px;
     font-size: small;
+  }
+
+  span {
+    font-size: smaller;
   }
 
   .instrument-icon {
