@@ -3,32 +3,59 @@
 PC設定
 ****************/
 
-/* PC共通設定 */
+
 
 header {
-  height: 110px;
+  background: linear-gradient(#e6ebec, #b0e0e6);
   width: 100%;
-  padding: 15px 0;
-  background-color: #ffffff;
-  position: relative;
-  z-index: 1;
+  height: 80px;
+
 
 }
-header .headline{
-    line-height: 100px;
-    float: left;
-    font-size: 30px;
-    margin-left: 200px;
-    position: relative;
-    z-index: 1;
+
+
+
+nav {
+  margin: 0 0 0 100px;
 }
-div#headtitle{
-  padding-left: 70px;
-  padding-right: 40px;
+
+.nav-link {
+  margin: 0 10px 0 10px;
 }
+
+
+.header-toumei {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(#b0e0e6, transparent);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   background-image: url(./cb.jpg)
 }
+
+
+
+
+
+
 
 
 
@@ -39,13 +66,11 @@ body {
   padding: 30px 30px 30px 30px;
   margin: 100px auto 100px 15%;
   box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
-              0 0 4px rgba(0, 0, 0, .8) inset,
-              8px 8px 5px #444;
+    0 0 4px rgba(0, 0, 0, .8) inset,
+    8px 8px 5px #444;
   background-image: linear-gradient(180deg, #ebffcc, #d6ff99);
   border-radius: 9px;
 }
-
-
 
 
 
@@ -56,167 +81,247 @@ body {
   padding: 30px 30px 30px 30px;
   margin: 100px 15% 100px auto;
   box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
-              0 0 4px rgba(0, 0, 0, .8) inset,
-              8px 8px 5px #444;
+    0 0 4px rgba(0, 0, 0, .8) inset,
+    8px 8px 5px #444;
   background-image: linear-gradient(180deg, #ebffcc, #d6ff99);
   border-radius: 9px;
 }
 
 
 
-.instrument{
+
+
+
+
+
+
+.instrument {
   font-family: sans-serif;
-  font-size:13px;
+  font-size: 13px;
   font-weight: bold;
   padding: 8px 0 0 0;
-  margin:0;
+  margin: 0;
 }
 
-.instrument-icon{
+.instrument-icon {
   text-align: right;
   margin: auto;
   padding: 0;
 }
-.sns-icon{
+
+.sns-icon {
   text-align: center;
 }
-.artist{
-  margin:10px 0 10px 0;
+
+.artist {
+  margin: 10px 0 10px 0;
 }
-.maker{
-  padding: 10px 0 10px 0;
+
+.maker {
+  padding: 2% 0 2% 0;
 }
-p{
+
+p {
   margin-bottom: 0;
 }
 
-
-
-:root{
-  --star-first:#daa520;
-  --star-second:#ffd700;
+.update-date {
+  font-size: 1.2em;
 }
-.star1{
+
+.new-date {
+  font-weight: bold;
+  margin: 0 3% 0 0;
+}
+
+.new {
+  font-weight: bold;
+  font-size: 1.2em;
+  animation: color-change 2s linear infinite;
+}
+
+@keyframes color-change {
+  0%, 100% {
+    color: #ff1493;
+  }
+
+  25% {
+    color: #7fff00;
+  }
+
+  50% {
+    color: #0091EA;
+  }
+
+  75% {
+    color: #9400d3;
+  }
+}
+
+
+
+
+
+
+
+
+
+:root {
+  --star-first: #daa520;
+  --star-second: #ffd700;
+}
+
+.star1 {
   animation: flash1 1.5s linear infinite;
 }
-@keyframes flash1 { 
-  10%,100% {
+
+@keyframes flash1 {
+  10%, 100% {
     color: var(--star-first);
   }
+
   0% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star2{
+
+.star2 {
   animation: flash2 1.5s linear infinite;
 }
-@keyframes flash2 { 
-  0%,17%,100% {
+
+@keyframes flash2 {
+  0%, 17%, 100% {
     color: var(--star-first);
   }
+
   7% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star3{
+
+.star3 {
   animation: flash3 1.5s linear infinite;
 }
-@keyframes flash3 { 
-  0%,4%,24%,100% {
+
+@keyframes flash3 {
+  0%, 4%, 24%, 100% {
     color: var(--star-first);
   }
+
   14% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star4{
+
+.star4 {
   animation: flash4 1.5s linear infinite;
 }
-@keyframes flash4 { 
-  0%,11%,31%,100% {
+
+@keyframes flash4 {
+  0%, 11%, 31%, 100% {
     color: var(--star-first);
   }
+
   21% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star5{
+
+.star5 {
   animation: flash5 1.5s linear infinite;
 }
-@keyframes flash5 { 
-  0%,18%,38%,100% {
+
+@keyframes flash5 {
+  0%, 18%, 38%, 100% {
     color: var(--star-first);
   }
+
   28% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star6{
+
+.star6 {
   animation: flash6 1.5s linear infinite;
 }
-@keyframes flash6 { 
-  0%,25%,45%,100% {
+
+@keyframes flash6 {
+  0%, 25%, 45%, 100% {
     color: var(--star-first);
   }
+
   35% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star7{
+
+.star7 {
   animation: flash7 1.5s linear infinite;
 }
-@keyframes flash7 { 
-  0%,32%,52%,100% {
+
+@keyframes flash7 {
+  0%, 32%, 52%, 100% {
     color: var(--star-first);
   }
+
   42% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star8{
+
+.star8 {
   animation: flash8 1.5s linear infinite;
 }
-@keyframes flash8 { 
-  0%,39%,59%,100% {
+
+@keyframes flash8 {
+  0%, 39%, 59%, 100% {
     color: var(--star-first);
   }
+
   49% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star9{
+
+.star9 {
   animation: flash9 1.5s linear infinite;
 }
-@keyframes flash9 { 
-  0%,46%,66%,100% {
+
+@keyframes flash9 {
+  0%, 46%, 66%, 100% {
     color: var(--star-first);
   }
+
   56% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star10{
+
+.star10 {
   animation: flash10 1.5s linear infinite;
 }
-@keyframes flash10 { 
-  0%,53%,73%,100% {
+
+@keyframes flash10 {
+  0%, 53%, 73%, 100% {
     color: var(--star-first);
   }
+
   63% {
     color: var(--star-second);
     font-weight: bold;
   }
 }
-.star-non{
+
+.star-non {
   color: var(--star-first);
 }
 
@@ -224,10 +329,69 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+footer {
+  font-weight: bold;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+ul.footer-menu li {
+  display: inline;
+}
+
+
+
+
+
+
+
+@media(max-width: 1200px) {
+  .box_l {
+    margin: 100px auto 100px auto;
+  }
+
+  .box_r {
+    margin: 100px auto 100px auto;
+  }
+}
+
 /****************
 スマートフォン設定
 ****************/
 
 @media(max-width: 767px) {
-  /* スマートフォン共通設定 */
+  .box_l {
+    margin: 100px auto 100px auto;
+  }
+
+  .box_r {
+    margin: 100px auto 100px auto;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .instrument {
+    font-size: smaller;
+  }
+
+  span {
+    font-size: small;
+  }
+
+  .instrument-icon {
+    width: 20px;
+  }
 }
