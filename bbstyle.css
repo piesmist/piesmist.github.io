@@ -350,12 +350,6 @@ ul.footer-menu li {
   display: inline;
 }
 
-
-
-
-
-
-
 @media(max-width: 1200px) {
   .box_l {
     margin: 100px auto 100px auto;
@@ -371,12 +365,7 @@ ul.footer-menu li {
 ****************/
 
 @media(max-width: 767px) {
-  .box_l {
-    width: 100%;
-    margin: 100px auto 100px auto;
-  }
-
-  .box_r {
+  .container {
     width: 100%;
     margin: 100px auto 100px auto;
   }
@@ -389,7 +378,6 @@ ul.footer-menu li {
     width: 25px;
     height: auto;
   }
-
 
   .instrument {
     width: 170px;
