@@ -66,10 +66,23 @@ div#headtitle {
   padding-right: 40px;
 }
 
+.navbar {
+  padding: 25px 1rem;
+}
+
+div#headtitle {
+  padding-left: 70px;
+  padding-right: 40px;
+}
+
 .header-toumei {
   width: 100%;
   height: 20px;
   background: linear-gradient(#b0e0e6, transparent);
+}
+
+.navbar {
+  padding: 25px 1rem;
 }
 
 th {

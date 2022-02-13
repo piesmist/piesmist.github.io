@@ -53,7 +53,9 @@ div#headtitle {
   background: linear-gradient(#b0e0e6, transparent);
 }
 
-
+.navbar {
+  padding: 25px 1rem;
+}
 
 
 
