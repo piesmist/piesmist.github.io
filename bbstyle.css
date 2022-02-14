@@ -1,38 +1,5 @@
-@charset "UTF-8";
-
-/****************
-PC設定
-****************/
-/* background: linear-gradient(#e6ebec, #b0e0e6); */
 header {
   width: 100%;
-  position: relative;
-  z-index: 1;
-
-}
-
-header .headline {
-  line-height: 100px;
-  float: left;
-  font-size: 30px;
-  margin-left: 200px;
-  position: relative;
-  z-index: 1;
-}
-
-.nav-list {
-  line-height: 100px;
-  float: left;
-  margin-left: 30px;
-  list-style: none;
-  position: relative;
-  z-index: 1;
-}
-
-.nav-list-item {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
   position: relative;
   z-index: 1;
 }
@@ -57,33 +24,11 @@ div#headtitle {
   padding: 25px 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   background-image: url(./cb.jpg)
 }
 
-
-
-
-
-
-
-
-
-
+/* ボックス～～～～～～～～！！！！！！ */
 
 .box_l {
   width: 800px;
@@ -111,13 +56,7 @@ body {
   border-radius: 9px;
 }
 
-
-
-
-
-
-
-
+/* ボックス～～～～～～～～！！！！！！ */
 
 .instrument {
   font-family: sans-serif;
@@ -181,14 +120,6 @@ p {
     color: #9400d3;
   }
 }
-
-
-
-
-
-
-
-
 
 :root {
   --star-first: #daa520;
@@ -349,29 +280,9 @@ p {
   color: var(--star-first);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-  font-weight: bold;
   width: 100%;
-  height: 100px;
   text-align: center;
-}
-
-ul.footer-menu li {
-  display: inline;
 }
 
 @media(max-width: 1200px) {

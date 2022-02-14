@@ -1,57 +1,13 @@
 body {
-  animation: fadeIn 2s ease 0s 1 normal;
-  -webkit-animation: fadeIn 2s ease 0s 1 normal;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
+  background-image: url('./images/top-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
   width: 100%;
-  position: relative;
-  z-index: 1;
-
-}
-
-header .headline {
-  line-height: 100px;
-  float: left;
-  font-size: 30px;
-  margin-left: 200px;
-  position: relative;
-  z-index: 1;
-}
-
-.nav-list {
-  line-height: 100px;
-  float: left;
-  margin-left: 30px;
-  list-style: none;
-  position: relative;
-  z-index: 1;
-}
-
-.nav-list-item {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
   position: relative;
   z-index: 1;
 }
@@ -85,71 +41,6 @@ div#headtitle {
   padding: 25px 1rem;
 }
 
-th {
-  font-size: 12px;
-}
-
-td {
-  font-size: 12px;
-}
-
-
-input {
-  width: 80%;
-  height: 30px;
-}
-
-table#music-list {
-  width: 95%;
-}
-
-table#search {
-  align-content: center;
-  width: 70%;
-  border-collapse: collapse;
-}
-
-table#search tr {
-  border-bottom: solid 2px white;
-}
-
-table#search tr:last-child {
-  border-bottom: none;
-}
-
-table#search th {
-  position: static;
-  width: 30%;
-  background-color: #52c2d0;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-
-table#search th:after {
-  display: block;
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: relative;
-  top: calc(50% - 10px);
-  right: -10px;
-  border-left: 10px solid #52c2d0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  float: right;
-  z-index: 0;
-}
-
-table#search td {
-  text-align: left;
-  width: 70%;
-  text-align: center;
-  background-color: #eee;
-  padding: 10px 0;
-}
-
-
 
 footer {
   width: 100%;
@@ -159,6 +50,6 @@ footer {
   text-align: center;
 }
 
-ul.footer-menu li {
-  display: inline;
+.footer-c {
+  line-height: 100px;
 }
