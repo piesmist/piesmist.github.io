@@ -309,7 +309,11 @@ footer {
     font-size: smaller;
   }
 
-  img {
+  #headtitle {
+    width: 110px;
+  }
+
+  .sns-icon img {
     width: 25px;
     height: auto;
   }

@@ -54,3 +54,18 @@ footer {
 .footer-c {
   line-height: 100px;
 }
+
+/****************
+スマートフォン設定
+****************/
+
+@media(max-width: 767px) {
+
+  #headtitle {
+    width: 110px;
+  }
+
+
+
+
+}
